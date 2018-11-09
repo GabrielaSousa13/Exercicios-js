@@ -1,0 +1,33 @@
+body{
+    background-color: pink;
+}
+
+.externa{
+    border: solid 2px red;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.interna{
+    padding: 200px;
+    margin: 30px;
+}
+
+.interna:first-child{
+    background-color: crimson;
+}
+
+.interna:nth-child(2){
+    background-color: white;
+}
+
+.interna:nth-child(3){
+    background-color: #245a00;
+}
+
+.interna:last-child{
+    background-color: teal;
+}

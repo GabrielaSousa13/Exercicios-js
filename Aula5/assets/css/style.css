@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.texto-destaque{
+    font-size: 18pt;
+    font-weight: bold;
+    color: rgb(130, 0, 190);
+    padding-right: 2px;
+}
+
+img{
+    height: 300px;
+}
+
+main > div{
+    padding-left: 5px;
+}
+
+@media (max-width:700px){
+main{
+    flex-wrap: wrap;
+}
+
+img{
+    height: initial;
+    width: 300px;
+}
+
+}
